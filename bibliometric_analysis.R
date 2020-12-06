@@ -1,4 +1,4 @@
-# Bibliometric analyses (brainhack marburg 2020, code by Mathias Scharinger)
+# Bibliometric analyses (brainhack marburg 2020, code by Mathias Scharinger, from various manuals)
 
 # Bibliometric analysis in R with library bibliometrix
 # Data from Web of Science (WoS) shoud be imported as bibtex files
@@ -52,7 +52,7 @@ NetMatrix = biblioNetwork(prediction, analysis = "co-occurrences", network = "ke
 # Plot the network
 net=networkPlot(NetMatrix, normalize="association", weighted=T, n = 30, Title = "Keyword Co-occurrences", type = "fruchterman", size=T,edgesize = 5,labelsize=0.7)
 
-# Create a conceptau structure map
+# Create a conceptual structure map
 CS = conceptualStructure(prediction,field="ID", method="MCA", minDegree=4, clust=4 ,k.max=8, stemming=FALSE, labelsize=10, documents=10)
 
 # Extract highest number of Citations
@@ -169,5 +169,7 @@ Theoretical=10^(log10(L$C)-2*log10(prod_analysis$AuthorProd[,1]))
 plot(prod_analysis$AuthorProd[,1],Theoretical,type="l",col="red",ylim=c(0, 1), xlab="Articles",ylab="Freq. of Authors",main="Scientific Productivity")
 lines(prod_analysis$AuthorProd[,1],Observed,col="blue")
 legend(x="topright",c("Theoretical (B=2)","Observed"),col=c("red","blue"),lty = c(1,1,1),cex=0.6,bty="n")
+
+
 
 
