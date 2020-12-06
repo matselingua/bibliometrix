@@ -13,6 +13,7 @@ The repository includes export files from Web of Science with full bibliographic
 The file for the first search is named: predictions.SUFFIX (where SUFFIX is .txt for a tab-delimited text-file for import in VOSviewer and .bib for further analysis in R).
 
 Links needed:
+
 https://apps.webofknowledge.com/  Web of Science
 
 https://www.vosviewer.com/  VOS-Viewer
