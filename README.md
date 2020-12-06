@@ -14,6 +14,9 @@ The file for the first search is named: predictions.SUFFIX (where SUFFIX is .txt
 
 Links needed:
 https://apps.webofknowledge.com/  Web of Science
+
 https://www.vosviewer.com/  VOS-Viewer
+
 https://www.r-project.org/  R-Framework
+
 https://rstudio.com/  R-Studio
