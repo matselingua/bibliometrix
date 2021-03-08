@@ -9,6 +9,8 @@ Predictions: TI=((predicti*  AND  language)  OR  (predicti* AND speech)  OR  (pr
 The second search is on auditory hallucinations with a particular emphasis on "voice". Here, the search term was in Topics (TS): Auditory hallucinations:  TS=(auditory  AND  hallucination*  AND  voice*)  
 
 
+The third (new) search to illustrate the development of the field is on "bibliometrics". The search term in WoS was: TS=(bibliometrics).
+
 The repository includes export files from Web of Science with full bibliographic content.
 The file for the first search is named: predictions.SUFFIX (where SUFFIX is .txt for a tab-delimited text-file for import in VOSviewer and .bib for further analysis in R).
 
