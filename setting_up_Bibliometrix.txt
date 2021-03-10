@@ -1,0 +1,30 @@
+# Installation and start of biblioshiny
+
+# First steps
+# Make sure R is installed on your computer
+# Ideally, you also install the GUI "RStudio"
+# In either R or RStudio, you want to install the library bibliometrix. Use the following command:
+
+install.packages("bibliometrix", repos="https://cloud.r-project.org", dependencies = TRUE)
+
+# Then make sure to load the library with:
+
+library(bibliometrix)
+
+# Finally, start up the virtual server that enables the GUI "biblioshiny". Ideally, you disconnect from VPN at this stage
+
+biblioshiny ()
+
+# Important: For this to work, your system should have a default browser. The GUI works best in Firefox, Chrome, and Safari
+
+# You should see a welcome screen in your browser
+# To start with analysing, your data need to be "uploaded" and converted.
+
+- Click on Data -> Import or Load
+- Select "Import Raw Files"
+# A new window should pop up. 
+- Select where data comes from ("Database"). Standard: Web of Science
+- Choose a file (file selection dialog will pop up)
+- Click on start to start the import and conversion. Wait a while until the data structure can be seen!
+
+# You now can perform the analyses as shown in the practical overview.
